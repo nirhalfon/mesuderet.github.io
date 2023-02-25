@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Business Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mesuderet</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style>
 		body {
 			padding: 20px;
+			font-size: 16px;
+			line-height: 1.5;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin-top: 0;
 		}
 
 		.logo {
@@ -34,25 +42,48 @@
 		.social-links a:hover {
 			color: #007bff;
 		}
+
+		@media only screen and (max-width: 768px) {
+			h1 {
+				font-size: 24px;
+			}
+		}
+
+		@media only screen and (max-width: 576px) {
+			.logo img {
+				max-width: 150px;
+				max-height: 150px;
+			}
+
+			.social-links {
+				flex-wrap: wrap;
+			}
+
+			.social-links a {
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+		}
 	</style>
 </head>
 <body>
 	<div class="logo">
-		<img src="path/to/your/logo.png" alt="Your Business Logo">
+		<img src="https://github.com/nirhalfon/mesuderet.github.io/raw/main/mesuderet_logo.png" alt="Mesuderet Logo">
 	</div>
 
 	<div class="social-links">
-		<a href="https://facebook.com/your-page"><i class="fa fa-facebook"></i></a>
-		<a href="https://twitter.com/your-handle"><i class="fa fa-twitter"></i></a>
-		<a href="https://instagram.com/your-username"><i class="fa fa-instagram"></i></a>
-		<a href="https://linkedin.com/in/your-profile"><i class="fa fa-linkedin"></i></a>
-		<a href="https://github.com/your-username"><i class="fa fa-github"></i></a>
-		<a href="mailto:your-email"><i class="fa fa-envelope"></i></a>
+		<a href="https://facebook.com/mesuderet.co.il"><i class="fa fa-facebook"></i></a>
+		<a href="https://twitter.com/mesuderet"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.youtube.com/@mesuderet"><i class="fa fa-youtube"></i></a>
+		<a href="https://www.instagram.com/_mesuderet_/"><i class="fa fa-instagram"></i></a>
+		<a href="https://www.pinterest.com/mesuderet"><i class="fa fa-pinterest"></i></a>
+		<a href="https://wa.me/972503003775"><i class="fa fa-whatsapp"></i></a>
+		<a href="https://www.tiktok.com/@mesuderet"><i class="fa fa-tiktok"></i></a>
 	</div>
 
-	<h1>Your Business Name</h1>
+	<h1>Mesuderet</h1>
 
-	<p>Your business description goes here.</p>
+	<p>"Get organized, feel empowered"</p>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
